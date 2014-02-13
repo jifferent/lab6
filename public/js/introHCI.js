@@ -42,10 +42,10 @@ function addResponse(response) {
 
 	details.html(projectHTML);
 
-	var url = '<script src="https://gdata.youtube.com/feeds/api/videos?alt=json-in-script&key=AIzaSyB1BoCj7vOafVodCxK1h3JQh26OfYpHauY&callback=processYT&fields=entry&q=' + encodeURIComponent(query) + '"></script>';
-	$('body').append(url);
+
 
 }
+
 
 /*
  * Make an AJAX call to retrieve a color palette for the site

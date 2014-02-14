@@ -5,36 +5,36 @@
 exports.view = function(req, res){
   res.render('index', {
 	'projects': [
-		{ 	'name': 'Waiting in Line',
-		    'image': 'lorempixel.people.1.jpeg',
+		{ 	'name': '1',
+		    'image': '1.jpg',
 		    'id': 'project1'
 		},
-		{ 	'name': 'Needfinding',
-			'image': 'lorempixel.city.1.jpeg',
+		{ 	'name': '2',
+			'image': '2.jpg',
 			'id': 'project2'
 		},
-		{ 	'name': 'Prototyping',
-			'image': 'lorempixel.technics.1.jpeg',
+		{ 	'name': '3',
+			'image': '3.jpg',
 			'id': 'project3'
 		},
-		{ 	'name': 'Heuristic Evaluation',
-			'image': 'lorempixel.abstract.1.jpeg',
+		{ 	'name': '4',
+			'image': '4.jpg',
 			'id': 'project4'
 		},
-		{ 	'name': 'Skeleton and a Plan',
-			'image': 'lorempixel.abstract.8.jpeg',
+		{ 	'name': '5',
+			'image': '5.jpg',
 			'id': 'project5'
 		},
-		{ 	'name': 'Meat on the Bones',
-			'image': 'lorempixel.people.2.jpeg',
+		{ 	'name': '6',
+			'image': '6.jpg',
 			'id': 'project6'
 		},
-		{ 	'name': 'Ready for Testing',
-			'image': 'lorempixel.technics.2.jpeg',
+		{ 	'name': '7',
+			'image': '7.jpg',
 			'id': 'project7'
 		},
-		{ 	'name': 'User Test Results and Online Test Proposal',
-			'image': 'lorempixel.city.2.jpeg',
+		{ 	'name': '8',
+			'image': '8.jpg',
 			'id': 'project8'
 		}    	
 	]

@@ -2,12 +2,20 @@
 
 <html>
 <head>
+	<body bgcolor="#9fbdc2">
 	<title>HCI Project Portfolio</title>	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 	<link href="/css/introHCI.css" rel="stylesheet">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/webflow.css">
+  <link rel="stylesheet" type="text/css" href="css/a6ez.webflow.css">
+  <script>
+    if (/mobile/i.test(navigator.userAgent)) document.documentElement.className += ' w-mobile';
+  </script>
 	<!-- this is a comment in HTML -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -22,11 +30,17 @@
 	<div class="container">
 		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
 		<!-- p means paragraph -->
-		<div class="jumbotron">
-			<h1>Michael Bernstein</h1>
-			<p>human-computer interaction &middot; social computing &middot; crowdsourcing</p>
-			<button id="colorBtn" class="btn btn-primary btn-lg">Colors!</button>
-		</div>
+		<div class="w-nav" data-collapse="all" data-animation="default" data-duration="400" data-contain="1">
+    <div class="w-container nav1">
+      <a class="w-nav-brand brand" href="index.html"></a>
+      <nav class="w-nav-menu" role="navigation"><a class="w-nav-link" href="index.html">Home</a><a class="w-nav-link" href="help.html">Help</a><a class="w-nav-link" href="map.html">Mapping Your Life</a><a class="w-nav-link" href="#">Calender</a><a class="w-nav-link" href="timeline.html">TimeLine</a><a class="w-nav-link"
+        href="index.html">Sign Out</a>
+      </nav>
+      <div class="w-nav-button">
+        <div class="w-icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
 
 		<h4>Projects</h4>
 		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
@@ -47,5 +61,7 @@
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 	<script src="/js/introHCI.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/webflow.js"></script>
 </body>
 </html>
